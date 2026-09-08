@@ -1,6 +1,4 @@
 import customtkinter as ctk
-import os
-import sys
 import MiscMath1
 from MiscMath1 import *
 
