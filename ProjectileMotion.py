@@ -1,13 +1,13 @@
 import sys 
 import os
-sys.path.append(os.path.abspath("C:\\...\\Task1"))
-sys.path.append(os.path.abspath("C:\\...\\Task2to6"))
-sys.path.append(os.path.abspath("C:\\...\\Task7"))
-sys.path.append(os.path.abspath("C:\\...\\Task8"))
-sys.path.append(os.path.abspath("C:\\...\\Task9"))
-sys.path.append(os.path.abspath("C:\\...\\ExTask1"))
-sys.path.append(os.path.abspath("C:\\...\\GUI"))
-sys.path.append(os.path.abspath("C:\\...\\Globals"))
+##sys.path.append(os.path.abspath("C:\\...\\Task1"))
+# sys.path.append(os.path.abspath("C:\\...\\Task2to6"))
+# sys.path.append(os.path.abspath("C:\\...\\Task7"))
+# sys.path.append(os.path.abspath("C:\\...\\Task8"))
+# sys.path.append(os.path.abspath("C:\\...\\Task9"))
+# sys.path.append(os.path.abspath("C:\\...\\ExTask1"))
+# sys.path.append(os.path.abspath("C:\\...\\GUI"))
+# sys.path.append(os.path.abspath("C:\\...\\Globals"))
 import numpy  as np
 import pandas as pd
 import matplotlib.pyplot as plt

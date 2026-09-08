@@ -2,7 +2,7 @@ import math
 import numpy as np
 import os
 import sys
-sys.path.append(os.path.abspath("C:\\...\\MiscMath1"))
+import MiscMath1
 from MiscMath1 import *
 
 class Challenge6Particles:
@@ -272,7 +272,7 @@ class Challenge6Particles:
             currentY=self.yFromX(currentX,velocity,angle)
             subsequentY=self.yFromX(subsequentX,velocity,angle)
             deltaY = (currentY-subsequentY)
-            modXY = pythag(deltaX,deltaY)
+            modXY = MiscMath1.pythag(deltaX,deltaY)
             totalDistance+=modXY
         return totalDistance
 

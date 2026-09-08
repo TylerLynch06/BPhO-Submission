@@ -1,7 +1,7 @@
 import customtkinter as ctk
 import os
 import sys
-sys.path.append(os.path.abspath("C:\\...\\MiscMath1"))
+import MiscMath1
 from MiscMath1 import *
 
 
