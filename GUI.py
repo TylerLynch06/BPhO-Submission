@@ -362,10 +362,10 @@ class GUIHandler:
                 self.removeToggledModels()
                 self.applyParametricControls()
 
-            if i==5:
-                self.graph._3D=True
-                plt.clf()
-                ax = fig.add_subplot(projection='3d')
+            # if i==5:
+            #     self.graph._3D=True
+            #     plt.clf()
+            #     ax = fig.add_subplot(projection='3d')
 
     def updateInputMethod(self,value):
         if value[0]=="E": self.sliderInput=False

@@ -218,7 +218,7 @@ class matPlotter:
 
     def retreivekeyInputs(self, event):
         ##self.particle.keyInputs(event)
-        if event.key=="escape": window.destroy()
+        # if event.key=="escape": window.destroy()
         if event.key=="p": self.togglePause()
         if event.key=="o": 
             writervideo = animation.FFMpegWriter(fps=60) 
